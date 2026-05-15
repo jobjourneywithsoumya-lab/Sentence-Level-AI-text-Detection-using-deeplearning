@@ -1,6 +1,7 @@
-# Sentence-Level-AI-text-detection
+<<<<<<< HEAD
+# Sentence-Level-AI-text-detection-using-deeplearning
 
-# Sentence-Level AI Text Detection
+# Sentence-Level AI Text Detection-using-deeplearning
 
 A full-stack application to detect AI-generated content in text at the sentence level, leveraging LSTM, DistilBERT, and BERT models. The backend is built with FastAPI, and the frontend is a React application.
 
@@ -166,3 +167,6 @@ curl -X POST http://localhost:8000/predict \
 Contributions are welcome! Please fork the repo and open a pull request with your improvements.
 
 
+=======
+# Sentence-Level-AI-text-Detection-using-deeplearning
+>>>>>>> c4ac6a52cc3245a32f782fee260bb80277360a36
