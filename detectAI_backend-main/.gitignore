@@ -1,0 +1,53 @@
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+
+*.csv
+*.h5
+*.safetensors
+
+# Jupyter Notebook Checkpoints (if using notebooks)
+.ipynb_checkpoints/
+
+# VSCode/IDE settings
+.vscode/
+.idea/
+
+# Environment files
+.env
+.env.*
+
+# Model files
+*.h5
+*.pkl
+*.pt
+*.joblib
+distilbert_ai_detector/
+# CSV and result/output files
+*.csv
+*.tsv
+*.log
+*.out
+
+# Docker
+*.pid
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test, debug or experiment files
+a.py
+newtest.py
+oldSlc.py
+newSlc.py
+final.py
+score.py

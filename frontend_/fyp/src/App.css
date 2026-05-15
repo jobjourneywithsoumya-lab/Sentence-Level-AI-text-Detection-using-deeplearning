@@ -1,0 +1,221 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  height: 100%;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  background-color: #1e90ff;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+  color: #ffeb3b;
+}
+
+/* Main Layout */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 80px;
+}
+
+/* Main Content */
+.main-content {
+  width: 900px;
+  max-width: 900px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+  margin-top: 60px;
+}
+
+/* Header */
+.header h2 {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Text Area */
+.text-area-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.text-area {
+  width: 80%;
+  max-width: 700px;
+  height: 200px;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 1px solid #cccccc;
+  background-color: #f0f8ff;
+  resize: none;
+}
+
+/* Word Count */
+.word-count {
+  text-align: center;
+  margin: 12px 0;
+  font-size: 18px;
+  color: #555;
+}
+
+/* Upload Button */
+.upload-button {
+  display: inline-block;
+  padding: 14px 24px;
+  background-color: #ff4500;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  margin-top: 15px;
+}
+
+.upload-button:hover {
+  background-color: #ff6347;
+}
+
+/* Score Display */
+.score-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Score Label */
+.score-label {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Score Bar */
+.slider {
+  width: 100%;
+  height: 12px;
+  background: #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slider-bar {
+  height: 100%;
+  border-radius: 5px;
+  transition: width 0.5s ease-in-out;
+}
+
+/* AI & Human Labels */
+.ai-label,
+.human-label {
+  position: absolute;
+  top: -20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+.ai-label {
+  left: 0;
+}
+
+.human-label {
+  right: 0;
+}
+
+/* Sentence-Level Predictions */
+.sentence-results {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.sentence-box {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.sentence-box p {
+  margin: 5px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .nav-links {
+    gap: 10px;
+    margin-top: 5px;
+  }
+
+  .app-container {
+    padding-top: 100px;
+  }
+
+  .main-content {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .text-area {
+    width: 100%;
+  }
+}

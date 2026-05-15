@@ -1,0 +1,51 @@
+/* SliderContainer */
+.slider-container {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Light shadow */
+  }
+  
+  /* Percentage Display */
+  .percentage-display {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .ai-percentage,
+  .human-percentage {
+    flex: 1;
+    padding: 10px;
+    background-color: #f0f8ff; /* AliceBlue background */
+    border-radius: 12px;
+    margin: 0 10px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Slider */
+  .slider {
+    width: 100%;
+    height: 25px;
+    appearance: none;
+    background: linear-gradient(90deg, #ff4500 0%, #1e90ff 100%);
+    outline: none;
+    border-radius: 12px;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #ffffff; /* Thumb is white */
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Light shadow on thumb */
+  }
+  
