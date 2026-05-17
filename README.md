@@ -529,7 +529,7 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 - **GitHub Repository:** [Sentence-Level-AI-text-Detection-using-deeplearning](https://github.com/jobjourneywithsoumya-lab/Sentence-Level-AI-text-Detection-using-deeplearning)
 - **GitHub Issues:** [Report Issues](https://github.com/jobjourneywithsoumya-lab/Sentence-Level-AI-text-Detection-using-deeplearning/issues)
 - **Author:** [Soumya](https://github.com/jobjourneywithsoumya-lab)
-- **Email:** [Add your email]
+- **Email:** [soumyanh7@gmail.com]
 
 ## 🙏 Acknowledgments
 
